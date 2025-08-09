@@ -63,7 +63,7 @@ dex_import {
 }
 
 prebuilt_etc_xml {
-	name: "com.motorola.motosignature",
+	name: "com.motorola.motosignature.xml",
 	owner: "motorola",
 	src: "proprietary/system/etc/permissions/com.motorola.motosignature.xml",
 	filename_from_src: true,
@@ -71,7 +71,7 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
-	name: "moto-core_services",
+	name: "moto-core_services.xml",
 	owner: "motorola",
 	src: "proprietary/system/etc/permissions/moto-core_services.xml",
 	filename_from_src: true,
@@ -79,7 +79,7 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
-	name: "moto-settings",
+	name: "moto-settings.xml",
 	owner: "motorola",
 	src: "proprietary/system/etc/permissions/moto-settings.xml",
 	filename_from_src: true,
@@ -87,7 +87,7 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
-	name: "com.motorola.camera3.content.ai",
+	name: "com.motorola.camera3.content.ai.xml",
 	owner: "motorola",
 	src: "proprietary/vendor/etc/permissions/com.motorola.camera3.content.ai.xml",
 	filename_from_src: true,
@@ -96,7 +96,7 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
-	name: "com.motorola.camera3.devonf",
+	name: "com.motorola.camera3.devonf.xml",
 	owner: "motorola",
 	src: "proprietary/vendor/etc/permissions/com.motorola.camera3.devonf.xml",
 	filename_from_src: true,
@@ -105,7 +105,7 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
-	name: "com.motorola.camera3.lens",
+	name: "com.motorola.camera3.lens.xml",
 	owner: "motorola",
 	src: "proprietary/vendor/etc/permissions/com.motorola.camera3.lens.xml",
 	filename_from_src: true,
@@ -114,7 +114,7 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
-	name: "com.motorola.camera3",
+	name: "com.motorola.camera3.xml",
 	owner: "motorola",
 	src: "proprietary/vendor/etc/permissions/com.motorola.camera3.xml",
 	filename_from_src: true,
@@ -123,7 +123,7 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
-	name: "com.motorola.moto-uirefresh",
+	name: "com.motorola.moto-uirefresh.xml",
 	owner: "motorola",
 	src: "proprietary/product/etc/permissions/com.motorola.moto-uirefresh.xml",
 	filename_from_src: true,
@@ -132,7 +132,7 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
-	name: "deviceowner-configuration-com.motorola.camera3",
+	name: "deviceowner-configuration-com.motorola.camera3.xml",
 	owner: "motorola",
 	src: "proprietary/product/etc/permissions/deviceowner-configuration-com.motorola.camera3.xml",
 	filename_from_src: true,
@@ -141,7 +141,7 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
-	name: "privapp-permissions-com.motorola.camera3",
+	name: "privapp-permissions-com.motorola.camera3.xml",
 	owner: "motorola",
 	src: "proprietary/product/etc/permissions/privapp-permissions-com.motorola.camera3.xml",
 	filename_from_src: true,
@@ -150,7 +150,7 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
-	name: "hiddenapi-whitelist-com.motorola.camera3",
+	name: "hiddenapi-whitelist-com.motorola.camera3.xml",
 	owner: "motorola",
 	src: "proprietary/product/etc/sysconfig/hiddenapi-whitelist-com.motorola.camera3.xml",
 	filename_from_src: true,
