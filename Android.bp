@@ -31,6 +31,10 @@ android_app_import {
 	overrides: ["Aperture", "Camera", "Camera2", "GoogleCameraGo", "GCamGOPrebuilt"],
 	preprocessed: true,
 	presigned: true,
+	dex_preopt: {
+		enabled: false,
+	},
+
 	privileged: true,
 	product_specific: true,
 }
@@ -40,6 +44,9 @@ android_app_import {
 	owner: "motorola",
 	apk: "proprietary/system_ext/priv-app/MotorolaSettingsProvider/MotorolaSettingsProvider.apk",
 	certificate: "platform",
+        dex_preopt: {
+                enabled: false,
+        },
 	privileged: true,
 	system_ext_specific: true,
 }
